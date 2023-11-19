@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    mediaplayer,
+    flyingtweety,
   } from "../assets";
   
   export const navLinks = [
@@ -128,19 +130,19 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "React Native Developer",
+      company_name: "Tesla",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 - Feb 2022",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
     // {
     //   title: "Web Developer",
     //   company_name: "Shopify",
@@ -245,21 +247,67 @@ import {
         "User-friendly point of sale solution is designed to enhance efficiency and elevate customer experience. This allows users to manage customers and manage inventories.",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Postgresql",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
       source_code_link: "https://github.com/Nilan-Dinushka/smart-pos-system.git",
     },
+
+    {
+      name: "Mini Game",
+      description:
+        "Simple game designed using html, css and javascript. Player should guid to a bird for fly through barriers",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: flyingtweety,
+      source_code_link: "https://github.com/Nilan-Dinushka/smart-pos-system.git",
+    },
+
+    {
+      name: "Media Player",
+      description:
+        "Attractive Media PLayer can use with both audio and video media files. This consist with multiple functionalities such as seeking, fast forwarding etc.",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavFX",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mediaplayer,
+      source_code_link: "https://github.com/Nilan-Dinushka/smart-pos-system.git",
+    },
+
+  
   ];
   
   export { services, technologies, experiences, testimonials, projects };
