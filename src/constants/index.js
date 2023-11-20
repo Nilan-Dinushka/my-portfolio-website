@@ -25,6 +25,7 @@ import {
     threejs,
     mediaplayer,
     flyingtweety,
+    uom,
   } from "../assets";
   
   export const navLinks = [
@@ -131,16 +132,16 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Trainee- Full Stack Developer",
+      company_name: "UOM",
+      icon: uom,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Successfully completed Trainee - full stack developer program provided by University of Moratuwa",
+        "Covers Develop fully functional web applications by utilizing state-of-the-art tools and frameworks.",
+        "Develop communication and analytical skills in a professional software development setting.",
+        "Apply core programming knowledge and skills to solve real-world problems.",
       ],
     },
     // {
@@ -282,7 +283,7 @@ import {
         },
       ],
       image: flyingtweety,
-      source_code_link: "https://github.com/Nilan-Dinushka/smart-pos-system.git",
+      source_code_link: "https://github.com/Nilan-Dinushka/mini-game.git",
     },
 
     {
@@ -304,7 +305,7 @@ import {
         },
       ],
       image: mediaplayer,
-      source_code_link: "https://github.com/Nilan-Dinushka/smart-pos-system.git",
+      source_code_link: "https://github.com/Nilan-Dinushka/Media-Player-JavaFX.git",
     },
 
   
